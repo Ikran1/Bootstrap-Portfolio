@@ -1,0 +1,227 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+/* MAIN BODY */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif' !important;
+  }
+
+nav a {
+  color: black !important;
+  transition: all 0.35s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: white !important; 
+}
+
+hr{
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+
+hr.light {
+  border-color: rgb(154, 152, 152) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 20px;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+
+
+/* NAVIGATION */
+#customNav {
+  background-color: rgb(129, 124, 124)!important;
+  transition: all 0.35s !important ;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200 !important;
+  letter-spacing: 1px !important;
+}
+
+
+/* JUMBOTRON */
+.portfolioBackground {
+    background-image: url(../images/profile-picture.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(90vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* CARDS */
+
+.content .card {
+    padding: 50px;
+    width: 261px;
+    border: none;
+}
+
+.sectionHeading {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px;
+}
+
+.myProjects  {
+    padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+    text-align: center;
+}
+  
+.content .card-body {
+    padding-top: 50px;
+    padding-bottom: 112px;
+}
+  
+.card-img-top {
+    width: 157px;
+    border: 1.5px solid #c5c5c5;
+    box-shadow: -1px 6px 5px 0px #adb5bd;
+    width: 100%;
+    margin: 0 auto;
+    height: 10vw;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.my-4 {
+    margin-top: 0.5rem!important;
+}
+
+.card-body p {
+    max-height: 100px;
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: 400 
+
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.btn-default {
+    border: 1.5px solid grey;
+    background-color: rgb(129, 124, 124);
+    color:white ;
+    transition: all 0.5s;
+    position: relative;
+}
+
+
+.btn-default:hover {
+    color: rgb(129, 124, 124);
+    background-color: black;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+
+}
+
+/* SKILLS */
+#skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(129, 124, 124) !important;
+}
+
+.skillsList {
+    padding: 20px;
+    margin: 25px;
+}
+
+.skill {
+    color: white !important;
+}
+
+
+
+
+/*      Contact Section    */
+.contact-section {
+    padding-top: 25px;
+    padding-bottom: 80px;
+  }
+
+
+.contact-section .card {
+    border: 2px solid #847375;
+  }
+
+.contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+
+.contact-section a:hover {
+    color:#847375 ;
+
+}
+
+/* FOOTER */
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+}
+  
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.container  .mx-2:hover {
+    background-color: rgba(106, 101, 101, 0.5);
+  }
+
+
